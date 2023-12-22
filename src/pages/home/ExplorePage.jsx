@@ -1,5 +1,5 @@
-import { Card } from "../../components/Root/ExplorePage/Card";
-import { Loading } from "../../components/shared/Loading";
+import { Card } from "@components/Root/ExplorePage/Card";
+import { Loading } from "@components/shared/Loading";
 
 import { useAuth } from "../../hooks/useAuth";
 import { useTeams } from "../../hooks/useTeams";

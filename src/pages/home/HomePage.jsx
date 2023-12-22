@@ -1,8 +1,8 @@
-import { PinList } from "../../components/shared/PinList"
-import { IconAdd } from "../../components/icons/IconAdd"
-import { LinkIcon } from "../../components/ui/LinkIcon"
+import { PinList } from "@components/shared/PinList"
+import { IconAdd } from "@components/icons/IconAdd"
+import { LinkIcon } from "@components/ui/LinkIcon"
 import { usePins } from "../../hooks/usePins"
-import { Loading } from "../../components/shared/Loading"
+import { Loading } from "@components/shared/Loading"
 
 export function HomePage () {
 

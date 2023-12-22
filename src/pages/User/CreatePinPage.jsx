@@ -1,8 +1,8 @@
-import { DetailPinForm } from "../../components/User/CreatePin/DetailsPinForm";
-import { UploadPinForm } from "../../components/User/CreatePin/UploadPinForm";
+import { DetailPinForm } from "@components/User/CreatePin/DetailsPinForm";
+import { UploadPinForm } from "@components/User/CreatePin/UploadPinForm";
 import { createPinValidate } from "../../utils/create-pin.validate";
 import { createPin } from "../../services/pins.services";
-import { Button } from "../../components/ui/Button";
+import { Button } from "@components/ui/Button";
 import { useAuth } from "../../hooks/useAuth";
 import { Navigate } from "react-router-dom";
 import { toast} from 'react-toastify'

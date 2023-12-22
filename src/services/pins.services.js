@@ -1,4 +1,4 @@
-const API_URL = `${import.meta.env.VITE_BACK_URL}/publication` || 'http://localhost:8080/api/publication'
+const API_URL = 'http://localhost:8080/api/publication'
 
 
 export async function getPins () {

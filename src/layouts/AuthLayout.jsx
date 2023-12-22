@@ -1,7 +1,7 @@
 
 import { Navigate, Outlet, useLocation } from "react-router-dom";
-import { IconArrowLeft } from "../components/icons/IconArrowLeft";
-import { LinkIcon } from "../components/ui/LinkIcon";
+import { IconArrowLeft } from "@components/icons/IconArrowLeft";
+import { LinkIcon } from "@components/ui/LinkIcon";
 import { useAuth } from "../hooks/useAuth";
 
 export function AuthLayout () {

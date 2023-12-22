@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import { PinList } from "../../components/shared/PinList";
-import { LinkIcon } from "../../components/ui/LinkIcon";
-import { IconAdd } from "../../components/icons/IconAdd";
+import { PinList } from "@components/shared/PinList";
+import { LinkIcon } from "@components/ui/LinkIcon";
+import { IconAdd } from "@components/icons/IconAdd";
 import { Navigate, useLocation } from "react-router-dom";
 import { usePinsBySearch } from "../../hooks/usePins"
 import { useAuth } from "../../hooks/useAuth";
 import { toast } from "react-toastify";
-import { Loading } from "../../components/shared/Loading";
+import { Loading } from "@components/shared/Loading";
 
 export function SearchPage() {
 

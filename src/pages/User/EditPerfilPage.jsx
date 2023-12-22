@@ -1,9 +1,9 @@
-import { EditPerfilForm } from "../../components/User/EditPerfil/EditPerfilForm";
-import { IconArrow } from "../../components/Icons/IconArrow";
+import { EditPerfilForm } from "@components/User/EditPerfil/EditPerfilForm";
+import { IconArrow } from "@components/Icons/IconArrow";
 import { Link, Navigate } from 'react-router-dom'
 import { useAuth } from "../../hooks/useAuth";
 import { toast} from 'react-toastify'
-import { Loading } from "../../components/shared/Loading";
+import { Loading } from "@components/shared/Loading";
 
 export function EditPerfilPage() {
 

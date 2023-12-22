@@ -1,10 +1,10 @@
-import { TabsList } from '../../components/User/Perfil/Tabs/TabsList'
-import { LinkButton } from '../../components/UI/LinkButton'
+import { TabsList } from '@components/User/Perfil/Tabs/TabsList'
+import { LinkButton } from '@components/UI/LinkButton'
 import { useAuth } from '../../hooks/useAuth'
 import { Navigate, useParams } from 'react-router-dom'
 import { toast} from 'react-toastify'
 import { useUserById } from '../../hooks/useUser'
-import { Loading } from '../../components/shared/Loading'
+import { Loading } from '@components/shared/Loading'
 
 
 export function PerfilPage () {
