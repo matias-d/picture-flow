@@ -1,0 +1,113 @@
+:root {
+  --color-background: #f0f0f0;
+  --color-primary: #3498db;
+  --color-secondary: #e3c200;
+  --color-text: #333333;
+  --color-accent: #ff5555;
+}
+
+/* LOGIN */
+
+.bg-radial-blue {
+  background: radial-gradient(45% 50% at 90% 10%,#3498db54 0,rgba(1,3,2, 0) 70%);
+
+}
+
+
+.content {
+
+  color: #333;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.content_label .form_label {
+  display: flex;
+  flex-direction: column;
+}
+
+.label_span {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.input_form:focus {
+  border-bottom: 3px solid #3498db;
+}
+.content_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.content_btn .btn {
+  height: 40px;
+  width: 200px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+}
+.btn.login {
+  background-color: var(--color-primary);
+}
+.btn.register {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+}
+.content_divisor {
+  display: flex;
+  align-items: center;
+}
+.content_divisor .text{
+  margin: 5px;
+}
+.content_divisor .divisor {
+  height: 1px;
+  width: 100%;
+  background-color: #333;
+}
+
+@media (min-width: 1024px) {
+  .content{
+    max-width: 100%
+  }
+}
+
+
+
+/* Hero Radial Gradient */
+.bg-radial-white {
+  background : linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 70%)
+}
+
+
+
+/* Mansory Gallery */
+
+.gallery {
+  columns: 2;
+  column-gap : 0.6em;
+  row-gap: 0.6em;
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    columns: 4
+  }
+}
+
+@media (min-width: 1440px) {
+  .gallery {
+    columns: 5
+  }
+}
+
+
