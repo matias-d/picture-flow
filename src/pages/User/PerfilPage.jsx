@@ -1,5 +1,4 @@
 import { TabsList } from '../../components/User/Perfil/Tabs/TabsList'
-import { LinkButton } from '../../components/UI/LinkButton'
 import { useAuth } from '../../hooks/useAuth'
 import { Navigate, useParams } from 'react-router-dom'
 import { toast} from 'react-toastify'
@@ -9,7 +8,7 @@ import { Loading } from '../../components/shared/Loading'
 
 export function PerfilPage () {
 
-  const { isLoading, isAuth, user : userMe } = useAuth()  
+  const { isLoading, isAuth} = useAuth()  
   const { userId } = useParams()
 
   const { data : user, isLoading : isLoadUser, isError } = useUserById({ userId })
@@ -23,7 +22,6 @@ export function PerfilPage () {
   
   if (isError) return <p className="text-center text-xl font-semibold pt-12 text-gray-400">Hubo un error al traer los detalles del usuario, intentalo de nuevo</p>   
   
-  const isPermited = userMe._id === user._id
    
     return (
         <section className='w-full flex flex-col items-center py-12 px-4 lg:px-0'>
@@ -37,17 +35,7 @@ export function PerfilPage () {
                 </div>
             </div>
 
-            {
-                isPermited &&
-                <div className='flex items-center gap-x-2 mb-10'>
-                    <LinkButton href='/settings-perfil'>
-                        Editar perfil
-                    </LinkButton>
-                    <LinkButton href='/pin-create'>
-                        Crear
-                    </LinkButton>
-                </div>
-            }
+           
 
             
             <TabsList />
