@@ -1,7 +1,8 @@
-import { SavesSection } from "../../components/Root/LandingPage/SavesSection";
-import { EndSection } from "../../components/Root/LandingPage/EndSection";
-import { HowItWork } from "../../components/Root/LandingPage/HowItWork";
-import { Hero } from "../../components/Root/LandingPage/Hero";
+import { SavesSection } from "../../components/Root/LandingPage/SavesSection.jsx";
+import { EndSection } from "../../components/Root/LandingPage/EndSection.jsx";
+import { HowItWork } from "../../components/Root/LandingPage/HowItWork.jsx";
+import { Hero } from "../../components/Root/LandingPage/Hero.jsx";
+
 
 
 export function LandingPage() {

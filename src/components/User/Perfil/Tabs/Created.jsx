@@ -1,7 +1,7 @@
-import { useAuth } from "../../../../hooks/useAuth"
-import { usePinsByUser } from "../../../../hooks/usePins"
-import { Loading } from "../../../shared/Loading"
-import { PinList } from "../../../shared/PinList"
+import { useAuth } from "../../../../hooks/useAuth.jsx"
+import { usePinsByUser } from "../../../../hooks/usePins.jsx"
+import { Loading } from "../../../shared/Loading.jsx"
+import { PinList } from "../../../shared/PinList.jsx"
 
 export function Created () {
 

@@ -1,9 +1,10 @@
-import { TabsList } from '../../components/User/Perfil/Tabs/TabsList'
-import { useAuth } from '../../hooks/useAuth'
-import { Navigate, useParams } from 'react-router-dom'
-import { toast} from 'react-toastify'
-import { useUserById } from '../../hooks/useUser'
-import { Loading } from '../../components/shared/Loading'
+import { TabsList } from '../../components/User/Perfil/Tabs/TabsList.jsx';
+import { useAuth } from '../../hooks/useAuth.jsx';
+import { Navigate, useParams } from 'react-router-dom';
+import { toast } from 'react-toastify';
+import { useUserById } from '../../hooks/useUser.jsx';
+import { Loading } from '../../components/shared/Loading.jsx';
+
 
 
 export function PerfilPage () {

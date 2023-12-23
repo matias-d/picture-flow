@@ -1,6 +1,6 @@
-import { IconArrowLightDown } from "../../icons/IconArrowLightDown";
-import { IconSearch } from "../../icons/IconSearch";
-import { LinkButton } from "../../ui/LinkButton";
+import { IconArrowLightDown } from "../../icons/IconArrowLightDown.jsx";
+import { IconSearch } from "../../icons/IconSearch.jsx";
+import { LinkButton } from "../../ui/LinkButton.jsx";
 
 export function HowItWork() {
   return (

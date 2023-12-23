@@ -1,6 +1,6 @@
-import { IconClose } from '../icons/IconClose'
-import { ButtonIcon } from '../ui/ButtonIcon'
-import { LinkButton } from '../ui/LinkButton'
+import { IconClose } from '../icons/IconClose.jsx'
+import { ButtonIcon } from '../ui/ButtonIcon.jsx'
+import { LinkButton } from '../ui/LinkButton.jsx'
 
 export function HistorialSearchedList({ historial, onDeleteSearched }) {
   return (

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { useAuth } from "../../hooks/useAuth";
-import { ButtonSave } from "./ButtonSave";
+import { useAuth } from "../../hooks/useAuth.jsx";
+import { ButtonSave } from "./ButtonSave.jsx";
 
 export function Pin ({ pin, isSave=false }) {
 

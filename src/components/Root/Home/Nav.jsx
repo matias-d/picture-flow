@@ -1,10 +1,11 @@
-import { IconChevronDown } from "../../icons/IconChevronDown";
+import { IconChevronDown } from "../../icons/IconChevronDown.jsx";
 import { NavLink, Link } from "react-router-dom";
-import { useAuth } from "../../../hooks/useAuth";
-import { DropDown } from '../../shared/Dropdown'
-import { Search } from "../../shared/Search";
+import { useAuth } from "../../../hooks/useAuth.jsx";
+import { DropDown } from '../../shared/Dropdown.jsx';
+import { Search } from "../../shared/Search.jsx";
 import { Menu } from "@headlessui/react";
-import { Logo } from "../../shared/Logo";
+import { Logo } from "../../shared/Logo.jsx";
+
 
 
 export function Nav() {

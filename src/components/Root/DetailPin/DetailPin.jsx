@@ -1,16 +1,16 @@
-import { IconArrowLightDown } from "../../icons/IconArrowLightDown";
-import { ButtonSave } from "../../shared/ButtonSave";
-import { useAuth } from "../../../hooks/useAuth";
-import { InputComment } from "./InputComment";
-import { ButtonLike } from "./ButtonLike";
-import { Button } from "../../ui/Button";
-import { Comment } from "./Comment";
-import { Pin } from "./Pin";
-import { IconDownload } from "../../icons/IconDownload";
-import { ButtonIcon } from "../../ui/ButtonIcon";
+import { IconArrowLightDown } from "../../icons/IconArrowLightDown.jsx";
+import { ButtonSave } from "../../shared/ButtonSave.jsx";
+import { useAuth } from "../../../hooks/useAuth.jsx";
+import { InputComment } from "./InputComment.jsx";
+import { ButtonLike } from "./ButtonLike.jsx";
+import { Button } from "../../ui/Button.jsx";
+import { Comment } from "./Comment.jsx";
+import { Pin } from "./Pin.jsx";
+import { IconDownload } from "../../icons/IconDownload.jsx";
+import { ButtonIcon } from "../../ui/ButtonIcon.jsx";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { ModalDownload } from "./ModalDownload";
+import { ModalDownload } from "./ModalDownload.jsx";
 
 export function DetailPin({ pin }) {
   

@@ -1,5 +1,5 @@
-import { Input } from "../../UI/Input";
-import { Select } from "./Select";
+import { Input } from "../../UI/Input.jsx";
+import { Select } from "./Select.jsx";
 
 export function DetailPinForm({ handleDetailPinForm, isError, onFocus }) {
     const handleInputChange = (e) => {

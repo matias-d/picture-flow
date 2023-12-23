@@ -1,6 +1,6 @@
-import { usePins } from "../../../hooks/usePins"
-import { Loading } from "../../shared/Loading"
-import { PinList } from "../../shared/PinList"
+import { usePins } from "../../../hooks/usePins.jsx"
+import { Loading } from "../../shared/Loading.jsx"
+import { PinList } from "../../shared/PinList.jsx"
 
 export function MoreToExplore() {
 

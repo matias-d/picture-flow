@@ -1,4 +1,4 @@
-import { Pin } from "./Pin";
+import { Pin } from "./Pin.jsx";
 
 export function PinList ({ pins, isSave = false }) {
     

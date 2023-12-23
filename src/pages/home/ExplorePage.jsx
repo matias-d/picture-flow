@@ -1,8 +1,10 @@
-import { Card } from "../../components/Root/ExplorePage/Card";
-import { Loading } from "../../components/shared/Loading";
+import { Card } from "../../components/Root/ExplorePage/Card.jsx";
 
-import { useAuth } from "../../hooks/useAuth";
-import { useTeams } from "../../hooks/useTeams";
+import { Loading } from "../../components/shared/Loading.jsx";
+
+import { useAuth } from "../../hooks/useAuth.jsx";
+
+import { useTeams } from "../../hooks/useTeams.jsx";
 
 
 export function ExplorePage() {

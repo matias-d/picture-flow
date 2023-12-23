@@ -1,8 +1,8 @@
-import { classNames } from "../../../../utils/classNames";
+import { classNames } from "../../../../utils/classNames.js";
 import { Tab } from "@headlessui/react";
-import { Created } from "./Created";
-import { Saves } from "./Saves";
-import { Actions } from "../Actions";
+import { Created } from "./Created.jsx";
+import { Saves } from "./Saves.jsx";
+import { Actions } from "../Actions.jsx";
 
 export function TabsList () {
     return (

@@ -1,8 +1,15 @@
+// src/components/icons/IconArrowLeft.jsx
+import { IconArrowLeft } from "../components/icons/IconArrowLeft.jsx";
 
+// src/components/ui/LinkIcon.jsx
+import { LinkIcon } from "../components/ui/LinkIcon.jsx";
+
+// src/hooks/useAuth.jsx
+import { useAuth } from "../hooks/useAuth.jsx";
+
+// Tu archivo original
 import { Navigate, Outlet, useLocation } from "react-router-dom";
-import { IconArrowLeft } from "../components/icons/IconArrowLeft";
-import { LinkIcon } from "../components/ui/LinkIcon";
-import { useAuth } from "../hooks/useAuth";
+
 
 export function AuthLayout () {
 

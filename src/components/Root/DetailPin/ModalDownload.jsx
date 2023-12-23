@@ -1,6 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
-import { Button } from '../../ui/Button'
+import { Button } from '../../ui/Button.jsx'
 
 export function ModalDownload({ isOpen, onOpen, pin }) {
 

@@ -1,5 +1,5 @@
-import { usePins } from "../../../store/pins/pins.store"
-import { Pin } from "./Pin"
+import { usePins } from "../../../store/pins/pins.store.js"
+import { Pin } from "./Pin.jsx"
 
 export function PinsList () {
 

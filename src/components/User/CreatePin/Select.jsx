@@ -1,8 +1,8 @@
-import { useTeams } from "../../../hooks/useTeams"
-import { useState, useMemo, Fragment } from "react"
-import { Combobox, Transition } from "@headlessui/react"
-import { IconSelector } from "../../icons/IconSelector"
-import { IconCheck } from "../../icons/IconCheck"
+import { useTeams } from "../../../hooks/useTeams.jsx";
+import { useState, useMemo, Fragment } from "react";
+import { Combobox, Transition } from "@headlessui/react";
+import { IconSelector } from "../../icons/IconSelector.jsx";
+import { IconCheck } from "../../icons/IconCheck.jsx";
 
 
 

@@ -1,6 +1,6 @@
-import { useAuth } from "../../../hooks/useAuth";
-import { getTimeAgo } from "../../../utils/getTimeAgo";
-import { ButtonDropdown } from "./ButtonDropdown";
+import { useAuth } from "../../../hooks/useAuth.jsx";
+import { getTimeAgo } from "../../../utils/getTimeAgo.js";
+import { ButtonDropdown } from "./ButtonDropdown.jsx";
 
 export function Comment({ comment }) {
 

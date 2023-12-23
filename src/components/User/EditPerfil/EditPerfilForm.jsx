@@ -1,8 +1,8 @@
 
-import { updateUser } from "../../../services/user.services";
-import { useAuth } from "../../../hooks/useAuth";
+import { updateUser } from "../../../services/user.services.js";
+import { useAuth } from "../../../hooks/useAuth.jsx";
 import { useState } from "react";
-import { Button } from "../../ui/Button";
+import { Button } from "../../ui/Button.jsx";
 import { toast } from "react-toastify";
 
 export function EditPerfilForm () {

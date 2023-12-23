@@ -1,6 +1,6 @@
-import { useAuth } from "../../hooks/useAuth"
-import { Nav as NavHome} from "../Root/Home/Nav"
-import { Nav as NavLanding} from "../Root/LandingPage/Nav"
+import { useAuth } from "../../hooks/useAuth.jsx"
+import { Nav as NavHome} from "../Root/Home/Nav.jsx"
+import { Nav as NavLanding} from "../Root/LandingPage/Nav.jsx"
 
 
 

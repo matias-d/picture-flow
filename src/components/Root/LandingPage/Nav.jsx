@@ -1,6 +1,6 @@
-import { LinkButton } from "../../ui/LinkButton";
+import { LinkButton } from "../../ui/LinkButton.jsx";
 import { NavLink } from "react-router-dom";
-import { Logo } from "../../shared/Logo";
+import { Logo } from "../../shared/Logo.jsx";
 
 
 export function Nav () {

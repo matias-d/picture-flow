@@ -1,8 +1,8 @@
-import { IconSearch } from "../icons/IconSearch";
+import { IconSearch } from "../icons/IconSearch.jsx";
 import { Transition } from "@headlessui/react";
-import { usePins } from "../../hooks/usePins";
+import { usePins } from "../../hooks/usePins.jsx";
 import { Fragment, useMemo } from "react";
-import { HistorialSearchedList } from "./HistorialSearchedList";
+import { HistorialSearchedList } from "./HistorialSearchedList.jsx";
 
 
 export function ModalSearch({ isFocus, search, onRedirect, historial, deleteSearchHistorial }) {

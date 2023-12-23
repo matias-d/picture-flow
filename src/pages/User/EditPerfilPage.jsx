@@ -1,8 +1,8 @@
-import { EditPerfilForm } from "../../components/User/EditPerfil/EditPerfilForm";
-import { Link, Navigate } from 'react-router-dom'
-import { useAuth } from "../../hooks/useAuth";
-import { toast} from 'react-toastify'
-import { Loading } from "../../components/shared/Loading";
+import { EditPerfilForm } from "../../components/User/EditPerfil/EditPerfilForm.jsx";
+import { Link, Navigate } from 'react-router-dom';
+import { useAuth } from "../../hooks/useAuth.jsx";
+import { toast } from 'react-toastify';
+import { Loading } from "../../components/shared/Loading.jsx";
 
 export function EditPerfilPage() {
 

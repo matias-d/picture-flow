@@ -1,6 +1,6 @@
-import { IconZoomScan } from "../../icons/IconZoomScan";
-import { ButtonIcon } from "../../ui/ButtonIcon";
-import { ModalPin } from "./ModalPin";
+import { IconZoomScan } from "../../icons/IconZoomScan.jsx";
+import { ButtonIcon } from "../../ui/ButtonIcon.jsx";
+import { ModalPin } from "./ModalPin.jsx";
 import { useState } from "react";
 
 

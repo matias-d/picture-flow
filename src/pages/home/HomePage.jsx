@@ -1,8 +1,9 @@
-import { PinList } from "../../components/shared/PinList"
-import { IconAdd } from "../../components/icons/IconAdd"
-import { LinkIcon } from "../../components/ui/LinkIcon"
-import { usePins } from "../../hooks/usePins"
-import { Loading } from "../../components/shared/Loading"
+import { PinList } from "../../components/shared/PinList.jsx";
+import { IconAdd } from "../../components/icons/IconAdd.jsx";
+import { LinkIcon } from "../../components/ui/LinkIcon.jsx";
+import { usePins } from "../../hooks/usePins.jsx";
+import { Loading } from "../../components/shared/Loading.jsx";
+
 
 export function HomePage () {
 

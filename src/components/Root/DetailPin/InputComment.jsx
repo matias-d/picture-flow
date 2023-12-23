@@ -1,8 +1,8 @@
-import { useCommentPin } from '../../../hooks/usePins'
-import { useAuth } from '../../../hooks/useAuth'
+import { useCommentPin } from '../../../hooks/usePins.jsx'
+import { useAuth } from '../../../hooks/useAuth.jsx'
 import { useParams } from 'react-router-dom'
 import { toast } from 'react-toastify'
-import { Input } from '../../UI/Input'
+import { Input } from '../../UI/Input.jsx'
 
 export function InputComment() {
 

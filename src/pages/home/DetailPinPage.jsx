@@ -1,11 +1,18 @@
-import { MoreToExplore } from "../../components/Root/DetailPin/MoreToExplore"
-import { DetailPin } from "../../components/Root/DetailPin/DetailPin"
-import { IconArrowLeft } from "../../components/icons/IconArrowLeft"
-import { Loading } from "../../components/shared/Loading"
-import { LinkIcon } from "../../components/ui/LinkIcon"
-import { usePinsById } from "../../hooks/usePins"
-import { useAuth } from "../../hooks/useAuth"
-import { useParams } from "react-router-dom"
+import { MoreToExplore } from "../../components/Root/DetailPin/MoreToExplore.jsx";
+
+import { DetailPin } from "../../components/Root/DetailPin/DetailPin.jsx";
+
+import { IconArrowLeft } from "../../components/icons/IconArrowLeft.jsx";
+
+import { Loading } from "../../components/shared/Loading.jsx";
+
+import { LinkIcon } from "../../components/ui/LinkIcon.jsx";
+
+import { usePinsById } from "../../hooks/usePins.jsx";
+
+import { useAuth } from "../../hooks/useAuth.jsx";
+
+import { useParams } from "react-router-dom";
 
 
 export function DetailPagePin () {

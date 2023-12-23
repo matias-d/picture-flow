@@ -1,12 +1,18 @@
-import { useAuth } from "../../hooks/useAuth";
+// src/hooks/useAuth.jsx
+import { useAuth } from "../../hooks/useAuth.jsx";
+
+// src/pages/auth/Login.jsx
 import { useState } from "react";
-import { Input } from "../../components/UI/Input";
-import { Button } from "../../components/ui/Button";
-import { LinkButton } from "../../components/ui/LinkButton";
-import { IconEye } from "../../components/icons/IconEye";
-import { IconEyeClose } from "../../components/icons/IconEyeClose";
-import { loginValidate } from "../../utils/auth.validate";
+import { Input } from "../../components/UI/Input.jsx";
+import { Button } from "../../components/ui/Button.jsx";
+import { LinkButton } from "../../components/ui/LinkButton.jsx";
+import { IconEye } from "../../components/icons/IconEye.jsx";
+import { IconEyeClose } from "../../components/icons/IconEyeClose.jsx";
+import { loginValidate } from "../../utils/auth.validate.js";
 import { toast } from "react-toastify";
+
+// s
+
 
 const Login = () => {
 

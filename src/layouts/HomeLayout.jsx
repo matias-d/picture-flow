@@ -1,7 +1,14 @@
-import { Header } from "../components/shared/Header";
-import { NavBar } from "../components/shared/NavBar";
+// src/components/shared/Header.jsx
+import { Header } from "../components/shared/Header.jsx";
+
+// src/components/shared/NavBar.jsx
+import { NavBar } from "../components/shared/NavBar.jsx";
+
+// src/hooks/useAuth.jsx
+import { useAuth } from "../hooks/useAuth.jsx";
+
+// Tu archivo original
 import { Outlet } from "react-router-dom";
-import { useAuth } from "../hooks/useAuth";
 
 
 export function HomeLayout() {

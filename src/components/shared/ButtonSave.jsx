@@ -1,9 +1,9 @@
 import { useMemo } from 'react'
 import { useState } from 'react'
 import { toast } from 'react-toastify'
-import { useAuth } from '../../hooks/useAuth'
-import { deleteSave, savePin } from '../../services/user.services'
-import { Button } from '../ui/Button'
+import { useAuth } from '../../hooks/useAuth.jsx'
+import { deleteSave, savePin } from '../../services/user.services.js'
+import { Button } from '../ui/Button.jsx'
 
 export function ButtonSave({ pinId, ...props }) {
     
