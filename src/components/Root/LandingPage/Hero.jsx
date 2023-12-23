@@ -1,4 +1,4 @@
-import { IconArrowLightDown } from "../../icons/IconArrowLightDown.jsx";
+import { IconArrowLightDown } from "../../icons/IconArrowLightDown";
 import { ButtonIcon } from "../../ui/ButtonIcon";
 
 export function Hero() {

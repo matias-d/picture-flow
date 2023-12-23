@@ -1,6 +1,6 @@
 import { useDeleteComment } from "../../../hooks/usePins";
 import { Menu, Transition } from "@headlessui/react";
-import { IconDots } from "../../icons/IconDots.jsx";
+import { IconDots } from "../../icons/IconDots";
 import { Fragment } from "react";
 import { useParams } from 'react-router-dom'
 import { toast } from "react-toastify";

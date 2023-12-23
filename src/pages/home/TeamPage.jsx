@@ -1,10 +1,10 @@
-import { IconArrowLeft } from "@components/icons/IconArrowLeft.jsx"
-import { PinList  } from '@components/shared/PinList'
-import { LinkIcon } from "@components/ui/LinkIcon"
+import { IconArrowLeft } from "../../components/icons/IconArrowLeft"
+import { PinList  } from '../../components/shared/PinList'
+import { LinkIcon } from "../../components/ui/LinkIcon"
 import { usePinsByTeam } from "../../hooks/usePins"
 import { useParams } from "react-router-dom"
 import { useAuth } from "../../hooks/useAuth"
-import { Loading } from "@components/shared/Loading"
+import { Loading } from "../../components/shared/Loading"
 
 
 export function TeamPage() {

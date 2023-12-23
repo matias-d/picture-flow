@@ -1,5 +1,5 @@
 import { Dialog, Transition } from "@headlessui/react";
-import { IconClose } from "../../icons/IconClose.jsx";
+import { IconClose } from "../../icons/IconClose";
 import { Fragment } from "react";
 
 export function ModalPin({ onModal, isOpen, pinImage }) {

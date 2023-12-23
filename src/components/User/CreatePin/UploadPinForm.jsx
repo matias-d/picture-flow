@@ -1,4 +1,4 @@
-import { IconArrowUp } from "../../icons/IconArrowUp.jsx";
+import { IconArrowUp } from "../../icons/IconArrowUp";
 import { useState } from "react";
 
 export function UploadPinForm ({handleUploadPinForm, isError}) {

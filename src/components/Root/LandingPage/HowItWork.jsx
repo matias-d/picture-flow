@@ -1,4 +1,4 @@
-import { IconArrowLightDown } from "../../icons/IconArrowLightDown.jsx";
+import { IconArrowLightDown } from "../../icons/IconArrowLightDown";
 import { IconSearch } from "../../icons/IconSearch";
 import { LinkButton } from "../../ui/LinkButton";
 

@@ -1,10 +1,10 @@
 import { useAuth } from "../../hooks/useAuth";
 import { useState } from "react";
-import { Input } from "@components/UI/Input";
-import { Button } from "@components/ui/Button";
-import { LinkButton } from "@components/ui/LinkButton";
-import { IconEye } from "@components/icons/IconEye.jsx";
-import { IconEyeClose } from "@components/icons/IconEyeClose.jsx";
+import { Input } from "../../components/UI/Input";
+import { Button } from "../../components/ui/Button";
+import { LinkButton } from "../../components/ui/LinkButton";
+import { IconEye } from "../../components/icons/IconEye";
+import { IconEyeClose } from "../../components/icons/IconEyeClose";
 import { loginValidate } from "../../utils/auth.validate";
 import { toast } from "react-toastify";
 

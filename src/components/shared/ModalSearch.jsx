@@ -1,4 +1,4 @@
-import { IconSearch } from "../icons/IconSearch.jsx";
+import { IconSearch } from "../icons/IconSearch";
 import { Transition } from "@headlessui/react";
 import { usePins } from "../../hooks/usePins";
 import { Fragment, useMemo } from "react";

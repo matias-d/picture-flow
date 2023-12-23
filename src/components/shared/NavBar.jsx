@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
-import { IconAdd } from "../icons/IconAdd.jsx";
-import { IconGrid } from "../icons/IconGrid.jsx";
-import { IconHome } from "../icons/IconHome.jsx";
-import { IconUser } from "../icons/IconUser.jsx";
+import { IconAdd } from "../icons/IconAdd";
+import { IconGrid } from "../icons/IconGrid";
+import { IconHome } from "../icons/IconHome";
+import { IconUser } from "../icons/IconUser";
 
 const navItems = [
     {
