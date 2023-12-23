@@ -3,7 +3,7 @@ import { useAuth } from "../../hooks/useAuth.jsx";
 
 // src/pages/auth/Login.jsx
 import { useState } from "react";
-import { Input } from "../../components/UI/Input.jsx";
+import { Input } from "../../components/ui/Input.jsx";
 import { Button } from "../../components/ui/Button.jsx";
 import { LinkButton } from "../../components/ui/LinkButton.jsx";
 import { IconEye } from "../../components/icons/IconEye.jsx";
