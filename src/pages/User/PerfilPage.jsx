@@ -1,5 +1,5 @@
 import { TabsList } from '@components/User/Perfil/Tabs/TabsList'
-import { LinkButton } from '@components/UI/LinkButton'
+import { LinkButton } from '@components/UI/LinkButton.jsx'
 import { useAuth } from '../../hooks/useAuth'
 import { Navigate, useParams } from 'react-router-dom'
 import { toast} from 'react-toastify'
