@@ -1,4 +1,4 @@
-import { Input } from "../../UI/Input.jsx";
+import { Input } from "../../ui/Input.jsx";
 import { Select } from "./Select.jsx";
 
 export function DetailPinForm({ handleDetailPinForm, isError, onFocus }) {

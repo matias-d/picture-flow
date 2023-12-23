@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ModalSearch } from "./ModalSearch.jsx";
 import { useEffect, useState } from "react";
 import { v4 as uuid } from 'uuid';
-import { Input } from "../UI/Input.jsx";
+import { Input } from "../ui/Input.jsx";
 
 export function Search () {
 
