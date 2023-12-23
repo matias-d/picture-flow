@@ -1,5 +1,4 @@
 import { EditPerfilForm } from "@components/User/EditPerfil/EditPerfilForm";
-import { IconArrow } from "@components/Icons/IconArrow.jsx";
 import { Link, Navigate } from 'react-router-dom'
 import { useAuth } from "../../hooks/useAuth";
 import { toast} from 'react-toastify'
@@ -24,7 +23,7 @@ export function EditPerfilPage() {
         <aside className="border-r border-b border-border-box w-24 py-6 h-full hidden md:flex">
           <section className="h-12 border-b border-border-box w-full flex justify-center ">
             <Link to={`/perfil/${user._id}`}>
-              <IconArrow/>
+              Volver
             </Link>
           </section>
         </aside>
