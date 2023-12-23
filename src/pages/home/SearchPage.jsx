@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { PinList } from "@components/shared/PinList";
 import { LinkIcon } from "@components/ui/LinkIcon";
-import { IconAdd } from "@components/icons/IconAdd";
+import { IconAdd } from "@components/icons/IconAdd.jsx";
 import { Navigate, useLocation } from "react-router-dom";
 import { usePinsBySearch } from "../../hooks/usePins"
 import { useAuth } from "../../hooks/useAuth";

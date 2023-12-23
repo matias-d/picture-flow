@@ -1,4 +1,4 @@
-import { IconSearch } from "../icons/IconSearch";
+import { IconSearch } from "../icons/IconSearch.jsx";
 import { useNavigate } from "react-router-dom";
 import { ModalSearch } from "./ModalSearch";
 import { useEffect, useState } from "react";

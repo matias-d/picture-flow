@@ -1,6 +1,6 @@
 import { MoreToExplore } from "@components/Root/DetailPin/MoreToExplore"
 import { DetailPin } from "@components/Root/DetailPin/DetailPin"
-import { IconArrowLeft } from "@components/icons/IconArrowLeft"
+import { IconArrowLeft } from "@components/icons/IconArrowLeft.jsx"
 import { Loading } from "@components/shared/Loading"
 import { LinkIcon } from "@components/ui/LinkIcon"
 import { usePinsById } from "../../hooks/usePins"

@@ -1,4 +1,4 @@
-import { IconArrowLeft } from "@components/icons/IconArrowLeft"
+import { IconArrowLeft } from "@components/icons/IconArrowLeft.jsx"
 import { PinList  } from '@components/shared/PinList'
 import { LinkIcon } from "@components/ui/LinkIcon"
 import { usePinsByTeam } from "../../hooks/usePins"

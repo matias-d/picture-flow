@@ -1,5 +1,5 @@
 import { EditPerfilForm } from "@components/User/EditPerfil/EditPerfilForm";
-import { IconArrow } from "@components/Icons/IconArrow";
+import { IconArrow } from "@components/Icons/IconArrow.jsx";
 import { Link, Navigate } from 'react-router-dom'
 import { useAuth } from "../../hooks/useAuth";
 import { toast} from 'react-toastify'

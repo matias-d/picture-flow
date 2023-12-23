@@ -1,5 +1,5 @@
 import { PinList } from "@components/shared/PinList"
-import { IconAdd } from "@components/icons/IconAdd"
+import { IconAdd } from "@components/icons/IconAdd.jsx"
 import { LinkIcon } from "@components/ui/LinkIcon"
 import { usePins } from "../../hooks/usePins"
 import { Loading } from "@components/shared/Loading"

@@ -1,4 +1,4 @@
-import { IconClose } from '../icons/IconClose'
+import { IconClose } from '../icons/IconClose.jsx'
 import { ButtonIcon } from '../ui/ButtonIcon'
 import { LinkButton } from '../ui/LinkButton'
 

@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAuth } from "../../../hooks/useAuth";
 import { useLikePinMutation } from "../../../hooks/usePins";
-import { IconHeart } from "../../icons/IconHeart";
+import { IconHeart } from "../../icons/IconHeart.jsx";
 
 export function ButtonLike({ likes }) {
 

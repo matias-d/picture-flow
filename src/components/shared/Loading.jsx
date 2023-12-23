@@ -1,4 +1,4 @@
-import { Loader } from "./Loader";
+import { Loader } from "./Loader.jsx";
 
 export function Loading({ title }) {
   return (

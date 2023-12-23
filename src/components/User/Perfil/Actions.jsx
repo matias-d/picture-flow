@@ -1,8 +1,8 @@
 
-import { IconFilter } from '../../icons/IconFilter'
+import { IconFilter } from '../../icons/IconFilter.jsx'
 import { DropDown } from '../../shared/Dropdown'
 import { LinkButton } from '../../UI/LinkButton'
-import { IconAdd } from '../../icons/IconAdd'
+import { IconAdd } from '../../icons/IconAdd.jsx'
 import { Menu } from '@headlessui/react'
 
 

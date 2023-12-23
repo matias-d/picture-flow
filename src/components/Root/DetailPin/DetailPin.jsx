@@ -1,4 +1,4 @@
-import { IconArrowLightDown } from "../../icons/IconArrowLightDown";
+import { IconArrowLightDown } from "../../icons/IconArrowLightDown.jsx";
 import { ButtonSave } from "../../shared/ButtonSave";
 import { useAuth } from "../../../hooks/useAuth";
 import { InputComment } from "./InputComment";
@@ -6,7 +6,7 @@ import { ButtonLike } from "./ButtonLike";
 import { Button } from "../../ui/Button";
 import { Comment } from "./Comment";
 import { Pin } from "./Pin";
-import { IconDownload } from "../../icons/IconDownload";
+import { IconDownload } from "../../icons/IconDownload.jsx";
 import { ButtonIcon } from "../../ui/ButtonIcon";
 import { Link } from "react-router-dom";
 import { useState } from "react";
