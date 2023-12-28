@@ -1,5 +1,6 @@
-const API_URL = `${window.location.protocol}//${import.meta.env.VITE_BACK_URL}/api/auth` || 'http://localhost:8080/api/auth'
+import { API_URL } from "./api"
 
+const API_AUTH = `${API_URL}/auth`
 
 async function singin ({ credentials }) {
 
@@ -11,7 +12,7 @@ async function singin ({ credentials }) {
             body: JSON.stringify(credentials),
     }
 
-    const data = await fetch(`${API_URL}/login`, config)
+    const data = await fetch(`${API_AUTH}/login`, config)
     const user = await data.json()
 
     return user
@@ -28,7 +29,7 @@ async function signup ({ credentials }) {
             body: JSON.stringify(credentials),
     }
 
-    const data = await fetch(`${API_URL}/register`, config)
+    const data = await fetch(`${API_AUTH}/register`, config)
     const user = await data.json()
 
     return user

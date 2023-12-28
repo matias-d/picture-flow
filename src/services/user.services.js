@@ -1,7 +1,9 @@
-const API_URL = `${window.location.protocol}//${import.meta.env.VITE_BACK_URL}/api/users` || 'http://localhost:8080/api/users'
+import { API_URL } from "./api"
+
+const API_USERS = `${API_URL}/users`
 
 export async function getUser({ id }) {
-    const data = await fetch(`${API_URL}/${id}`)
+    const data = await fetch(`${API_USERS}/${id}`)
     const user = await data.json()
     return user
 }
@@ -18,7 +20,7 @@ export async function updateUser ({ id, data }) {
         body: form,  
     };
 
-    const response = await fetch(`${API_URL}/${id}`, config)
+    const response = await fetch(`${API_USERS}/${id}`, config)
 
     const result = await response.json()
 
@@ -37,14 +39,14 @@ export async function savePin ({ userId, pinId }) {
           }),
     }
 
-    const data = await fetch(`${API_URL}/saves/${userId}`, config)
+    const data = await fetch(`${API_USERS}/saves/${userId}`, config)
     const response = await data.json()
     return response
 }
 
 export async function getSavesByUser ({ userId }) {
    
-    const data = await fetch(`${API_URL}/saves/${userId}`)
+    const data = await fetch(`${API_USERS}/saves/${userId}`)
     const response = await data.json()
     return response
 }
@@ -57,7 +59,7 @@ export async function deleteSave ({ userId, saveId }) {
             "Content-Type": "application/json",
         },
     }
-    const data = await fetch(`${API_URL}/saves/${userId}/${saveId}`, config)
+    const data = await fetch(`${API_USERS}/saves/${userId}/${saveId}`, config)
     const response = await data.json()
     return response
 }

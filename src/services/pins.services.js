@@ -1,33 +1,34 @@
-const API_URL = `${window.location.protocol}//${import.meta.env.VITE_BACK_URL}/api/publication` || 'http://localhost:8080/api/publication'
+import { API_URL } from "./api"
+
+const API_PINS = `${API_URL}/publication`
+
 
 export async function getPins () {
-    const data = await fetch(`${API_URL}/traer`)
+    const data = await fetch(`${API_PINS}/traer`)
     const pins = await data.json()
     return pins
 }
 
 export async function getPin ({ id }) {
-    const data = await fetch(`${API_URL}/traer/${id}`)
+    const data = await fetch(`${API_PINS}/traer/${id}`)
     const pins = await data.json()
     return pins
 }
 
 export async function getPinsByUser ({ userId }) {
-    const data = await fetch(`${API_URL}/user/${userId}`)
+    const data = await fetch(`${API_PINS}/user/${userId}`)
     const pins = await data.json()
     return pins
 }
 
 export async function getPinsByTeam ({ team }) {
-    console.log(`API URL: ${import.meta.env.VITE_BACK_URL}/publication` )
-    const data = await fetch(`${API_URL}/traer/team/${team}`)
-    console.log(data)
+    const data = await fetch(`${API_PINS}/traer/team/${team}`)
     const pins = await data.json()
     return pins
 }
 
 export async function getPinsBySearch ({ search }) {
-    const data = await fetch(`${API_URL}/search?query=${search}`)
+    const data = await fetch(`${API_PINS}/search?query=${search}`)
     const pins = await data.json()
     return pins
 }
@@ -46,7 +47,7 @@ export async function createPin ({ newPin }) {
         body: form,  
       };
 
-    const data = await fetch(`${API_URL}/crear`, config)
+    const data = await fetch(`${API_PINS}/crear`, config)
 
     const result = await data.json()
 
@@ -64,7 +65,7 @@ export async function createComment ({ pinId, newComment}) {
           body: JSON.stringify(newComment),
     }
 
-    const data = await fetch(`${API_URL}/comments/${pinId}`, config)
+    const data = await fetch(`${API_PINS}/comments/${pinId}`, config)
     const pin = await data.json()
     return pin
 }
@@ -78,7 +79,7 @@ export async function deleteComment ({ pinId, commentId }) {
           },
     }
 
-    const data = await fetch(`${API_URL}/comments/${pinId}/${commentId}`, config)
+    const data = await fetch(`${API_PINS}/comments/${pinId}/${commentId}`, config)
     const pin = await data.json()
     return pin
 }
@@ -94,7 +95,7 @@ export async function likePost ({ pinId, userId }) {
           }),
     }
 
-    const data = await fetch(`${API_URL}/likes/${pinId}`, config)
+    const data = await fetch(`${API_PINS}/likes/${pinId}`, config)
     const pin = await data.json()
     return pin
 
@@ -108,7 +109,7 @@ export async function deleteLikePost ({ pinId, userId }) {
           },
     }
 
-    const data = await fetch(`${API_URL}/likes/${pinId}/${userId}`, config)
+    const data = await fetch(`${API_PINS}/likes/${pinId}/${userId}`, config)
     const pin = await data.json()
     return pin
 
