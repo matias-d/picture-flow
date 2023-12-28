@@ -1,4 +1,4 @@
-const API_URL = `${import.meta.env.VITE_BACK_URL}/publication` || 'http://localhost:8080/api/publication'
+const API_URL = `${import.meta.env.VITE_BACK_URL}/api/publication` || 'http://localhost:8080/api/publication'
 
 export async function getPins () {
     const data = await fetch(`${API_URL}/traer`)
@@ -19,7 +19,9 @@ export async function getPinsByUser ({ userId }) {
 }
 
 export async function getPinsByTeam ({ team }) {
+    console.log(`API URL: ${import.meta.env.VITE_BACK_URL}/publication` )
     const data = await fetch(`${API_URL}/traer/team/${team}`)
+    console.log(data)
     const pins = await data.json()
     return pins
 }
