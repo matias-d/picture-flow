@@ -1,4 +1,4 @@
-const API_URL = `${import.meta.env.VITE_BACK_URL}/api/publication` || 'http://localhost:8080/api/publication'
+const API_URL = `${window.location.protocol}//${import.meta.env.VITE_BACK_URL}/api/publication` || 'http://localhost:8080/api/publication'
 
 export async function getPins () {
     const data = await fetch(`${API_URL}/traer`)

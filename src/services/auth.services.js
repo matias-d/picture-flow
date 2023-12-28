@@ -1,4 +1,4 @@
-const API_URL = `${import.meta.env.VITE_BACK_URL}/api/auth` || 'http://localhost:8080/api/auth'
+const API_URL = `${window.location.protocol}//${import.meta.env.VITE_BACK_URL}/api/auth` || 'http://localhost:8080/api/auth'
 
 
 async function singin ({ credentials }) {
